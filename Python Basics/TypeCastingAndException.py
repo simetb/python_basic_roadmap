@@ -14,7 +14,7 @@ while True:
         x = int(input("Please enter a number: "))
         break
     except ValueError:
-        print("Oops! that was no valid number. Try again...")
+        print("Oops! that was no valid number. Try again")
 
 # Multiple exceptions
 class B(Exception):
@@ -41,6 +41,7 @@ except Exception as inst:
     print(type(inst))
     print(inst.args)
     print(inst)
+    
 
     x, y = inst.args   
     print('x =', x)

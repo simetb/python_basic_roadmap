@@ -23,11 +23,9 @@ class Employee(Human):
             return (self.salary + other.salary)
         else:
             raise("Err0r")
-        
 
     def __len__(self):
         return self.salary
-
     
     @property
     def Department(self):
@@ -36,7 +34,6 @@ class Employee(Human):
     @Department.setter
     def Department(self,new_value):
         self.deparment = new_value
-
 
     @Department.deleter
     def Department(self):
@@ -60,6 +57,6 @@ if __name__ == "__main__":
     test_human.deparment = "Anything"
     print(test_human.deparment)
     del test_human.deparment
-    print(test_human+test_alien)
+    print(test_human + test_alien)
     print(len(test_human))
     

@@ -18,7 +18,7 @@ def switchStatement():
 
 # Row Condition
 def rowCondition():
-    row_condition = "X and Y have thesame value" if x == y else "X and Y have diferent values"
+    row_condition = "X and Y have the same value" if x == y else "X and Y have diferent values"
     print(row_condition)
 
 # Match condition

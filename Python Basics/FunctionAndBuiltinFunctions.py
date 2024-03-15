@@ -21,7 +21,7 @@ namesFunction(name_two="Alfredo", name_three="Gerardo",name_one="Miguel")
 # Function with arbitrary keyword arguments
 def arbitraryArguments(**keys):
     print(keys)
-arbitraryArguments(second_key = "Im the second Key", first_ke = "Im the first key")
+arbitraryArguments(second_key = "Im the second Key", first_key = "Im the first key")
 
 # Function with default value
 def defaultValueFunction(name="Temis"):
